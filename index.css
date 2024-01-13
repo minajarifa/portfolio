@@ -9,11 +9,13 @@ font-family: 'Work Sans', sans-serif;
 .btn-primary{
     color: #FFF;
 text-align: center;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: 600;
 border-radius: 8px;
 background: #FF900E;
-padding: 10px;
+padding: 20px 25px;
+cursor: pointer;
+border: 0;
 }
 /* header start*/
 header{
@@ -60,4 +62,29 @@ nav li  a {
 .banner-description{
     color: #727272;
     
+}
+.banner-img{
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+
+/*RESPONSIVE MEDIA QUERIES
+ mobile device   */
+
+@media screen and (max-width:576px) {
+    header{
+    padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/*tablet or medium devices*/
+@media screen and (min-width:577px) and (max-width;960px
+)  {
+   nav{
+    flex-direction: column;
+   } 
 }
